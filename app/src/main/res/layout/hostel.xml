@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#666600"
+        >
+        <TextView
+            android:id="@+id/tieudeu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HOSTEL"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            />
+        <ImageView
+            android:id="@+id/d1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tieudeu"
+            android:src="@drawable/hostel"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/d5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/d1"
+            android:text="Hostel: Hình thức này đa phần nhắm đến du khách ba lô, sinh viên đi phượt. Giá phòng rẻ hoặc là chỉ cung cấp giường trong các phòng dorm, sử dụng toilet chung."
+            android:textSize="25dp"
+            android:gravity="center"
+
+            />
+        <TextView
+            android:id="@+id/d6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/d5"
+            android:text=" COST: 20$/DAYS                   Vintage Hostel Saigon
+80 Bùi Viện, Phường Phạm Ngũ Lão, Quận 1, Thành phố Hồ Chí Minh, Việt Nam., Quận 1, Hồ Chí Minh, Việt Nam,"
+            android:textColor="#330000"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/btn_back1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/d6"
+            android:layout_marginTop="20dp"
+            android:text="BACK"
+            android:onClick="trove"
+            android:textColor="#FFFFFF"
+            android:background="#0000FF"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

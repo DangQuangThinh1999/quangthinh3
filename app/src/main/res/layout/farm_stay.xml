@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#666600"
+        >
+        <TextView
+            android:id="@+id/tieudeu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FARMSTAY"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            />
+        <ImageView
+            android:id="@+id/d1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tieudeu"
+            android:src="@drawable/farm_stay"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/d5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/d1"
+            android:textSize="25dp"
+            android:text="Farmstay là hình thức giống với Homestay chỉ khác là du khách sẽ lưu trú ở nông trại, và phải làm việc như nông dân trong thời gian lưu trú nhé."
+            android:gravity="center"
+
+            />
+        <TextView
+            android:id="@+id/d6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/d5"
+            android:text=" COST:40$/DAY                                   Khu Nghỉ Dưỡng Chày Lập Farmstay (Chay Lap Farmstay &amp; Resort)
+Phuc Trach, Bo Trach, Quang Binh, Vietnam, Phong Nha, Đồng Hới (Quảng Bình), Việt Nam"
+            android:textColor="#330000"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/btn_back3"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/d6"
+            android:layout_marginTop="20dp"
+            android:text="BACK"
+            android:onClick="trove"
+            android:textColor="#FFFFFF"
+            android:background="#0000FF"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

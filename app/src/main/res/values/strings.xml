@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="label1">TÌM KIẾM KHÁCH SẠN</string>
+    <string name="label2">DANH SÁCH KHÁCH SẠN</string>
+    <string name="label3">Guesthouse – Home-stay</string>
+    <string name="label4">Farmstay</string>
+    <string name="label5">Capsule Hotel</string>
+    <string name="label6">Hostel</string>
+</resources>

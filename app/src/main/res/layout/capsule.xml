@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#666600"
+        >
+        <TextView
+            android:id="@+id/tieudeu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAPSULE HOTEL"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            />
+        <ImageView
+            android:id="@+id/d1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tieudeu"
+            android:src="@drawable/capsule"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/d5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/d1"
+           android:text="Capsule Hotel: hình thức này cung cấp các buồng ngủ như những cái kén cho khách. Nó cao cấp hơn hostel ở chỗ là nó riêng tư hơn, các dịch vụ tươm tất hơn một tí. Giá thành cũng cao hơn do chi phí đầu tư 1 giường con nhộng cũng hơi cao."
+            android:textSize="25dp"
+            android:gravity="center"
+
+            />
+        <TextView
+            android:id="@+id/d6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/d5"
+            android:text="COST:$45/DAYS  Tầng M, 302-304 Võ Văn Kiệt, Phường Cô Giang, Cầu Ông Lãnh, Quận 1, Thành phố Hồ Chí Minh, Việt Nam"
+            android:textColor="#330000"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/btn_back4"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/d6"
+            android:onClick="trove"
+            android:text="BACK"
+            android:textColor="#FFFFFF"
+            android:background="#0000FF"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
